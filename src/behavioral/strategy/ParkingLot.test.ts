@@ -1,4 +1,4 @@
-import ParkingLot from "./strategy/ParkingLot";
+import ParkingLot from "./ParkingLot";
 
 test("Deve criar um estacionamento", function () {
     const parkingLot = new ParkingLot("airport", 500);//Dummy
