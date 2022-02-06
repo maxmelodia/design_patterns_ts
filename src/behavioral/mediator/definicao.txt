@@ -1,0 +1,6 @@
+Mediator 
+
+* Definir um objeto que encapsula a forma como um conjunto de objetos interage.
+* Promove o desacoplamento ao evitar que os objetos se refiram uns aos outros 
+  explicitamente, permitindo variar suas interações independentemente.
+  (muitos-para-muitos);

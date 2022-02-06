@@ -4,7 +4,7 @@ class Observable {
     constructor() {
         this.observers = [];
     }
-    register(observer) {
+    subscribe(observer) {
         this.observers.push(observer);
     }
     notifyAll(name, value) {

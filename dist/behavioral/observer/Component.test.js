@@ -8,7 +8,7 @@ const Label_1 = __importDefault(require("./Label"));
 test("Deve escrever no input e exibir os dados atualizados na label", function () {
     const inputText = new InputText_1.default("country");
     const label = new Label_1.default("País: {{country}}");
-    inputText.register(label);
+    inputText.subscribe(label);
     inputText.setValue("Brasil");
     expect(label.value).toBe("País: Brasil");
     inputText.setValue("França");
