@@ -1,0 +1,5 @@
+Observer (Publish-Subscribe)
+
+* Definir uma dependência um-para-muitos entre objetos
+* Quando um objeto muda de estado, os seus dependentes são notificados
+  e atualizados.
