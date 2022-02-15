@@ -13,7 +13,7 @@ test("Deve logar as operações realizadas em um caso de uso", function () {
 			{ idItem: 3, quantity: 3 },
 		]
 	};
-	const placeOrder = new LoggerUseCaseDecorator(new PerformanceUseCascleareDecorator(new PlaceOrder()));
+	const placeOrder = new LoggerUseCaseDecorator(new PerformanceUseCaseDecorator(new PlaceOrder()));
 	placeOrder.execute(input);
 	const simulateFreight = new LoggerUseCaseDecorator(new PerformanceUseCaseDecorator(new SimulateFreight()));
 	simulateFreight.execute(input);
