@@ -1,0 +1,1 @@
+* Evitar o acoplamento do remetente de uma solicitação com o seu receptor.
